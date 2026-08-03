@@ -1,0 +1,8 @@
+# exported by https://3dviewer.net
+newmtl model
+Kd 0.53 0.4 0.2
+d 1
+Ka 0 0 0
+Ks 0.8 0.8 0.8
+Ns 250
+map_Kd base_color_texture.png
