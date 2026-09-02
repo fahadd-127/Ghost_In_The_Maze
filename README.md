@@ -10,15 +10,15 @@ For installation and build instructions, see [SETUP.md](SETUP.md).
 
 ### Full view with UI
 
-![Full view with UI](images/GhostInTheMazeFull.png)
+<img src="images/GhostInTheMazeFull.png" alt="Full view with UI" width="900">
 
 ### Day view without UI
 
-![Day view without UI](images/GhostInTheMazeDay.png)
+<img src="images/GhostInTheMazeDay.png" alt="Day view without UI" width="900">
 
 ### Night view without UI
 
-![Night view without UI](images/GhostInTheMazeNight.png)
+<img src="images/GhostInTheMazeNight.png" alt="Night view without UI" width="900">
 
 ## Main Features
 
