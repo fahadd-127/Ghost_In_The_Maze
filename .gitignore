@@ -1,12 +1,14 @@
 *
 !*/
 !/.gitignore
+!/SETUP.md
 !**/*.cpp
 !**/*.c
 !**/*.h
 !**/*.hpp
 !**/*.ui
 !**/*.pro
+!**/*.png
 !/shaders
 !**/*.frag
 !**/*.vert
