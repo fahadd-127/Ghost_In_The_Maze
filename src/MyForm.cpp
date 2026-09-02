@@ -83,7 +83,7 @@ MyForm::MyForm(QWidget *parent) : QWidget(parent) {
 
   // Per l'escena → panell: actualitzo labels i sincronitzo controls
   connect(ui.widget, &MySceneWidget::coinsUpdated, this, [this](int collected, int total) {
-    ui.coinsLabel->setText(QString::number(collected) + "/" + QString::number(total) + " monedes");
+    ui.coinsLabel->setText(QString::number(collected) + "/" + QString::number(total) + " coins");
   });
 
   connect(ui.widget, &MySceneWidget::statusMessageChanged, this, [this](const QString &message) {
@@ -133,8 +133,8 @@ MyForm::MyForm(QWidget *parent) : QWidget(parent) {
   });
 
   // Per els valors per defecte abans de començar
-  ui.coinsLabel->setText("0/0 monedes");
-  ui.statusLabel->setText("Prem Començar partida");
+  ui.coinsLabel->setText("0/0 coins");
+  ui.statusLabel->setText("Press Start Game");
   ui.thirdPersonRadio->setChecked(true);
   ui.coinsRotationCheck->setChecked(true);
 }
@@ -144,7 +144,7 @@ void MyForm::setupGameOverDialog() {
 
   // Botó Acceptar (reinicia la partida)
   if (QPushButton *okButton = ui.gameOverButtonBox->button(QDialogButtonBox::Ok)) {
-    okButton->setText(QStringLiteral("Acceptar"));
+    okButton->setText(QStringLiteral("Accept"));
     okButton->setIcon(QIcon());
     okButton->setDefault(true);
     okButton->setAutoDefault(true);
@@ -163,7 +163,7 @@ void MyForm::setupGameOverDialog() {
 
   // Per el botó Tancar (només tanca el diàleg)
   if (QPushButton *closeButton = ui.gameOverButtonBox->button(QDialogButtonBox::Close)) {
-    closeButton->setText(QStringLiteral("Tancar"));
+    closeButton->setText(QStringLiteral("Close"));
     closeButton->setIcon(QIcon());
   }
 }

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>IDI-Lab</string>
+   <string>Ghost in the Maze</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <property name="spacing">
@@ -78,7 +78,7 @@
       <item>
        <widget class="QGroupBox" name="viewGroup">
         <property name="title">
-         <string>Vista</string>
+             <string>View</string>
         </property>
         <layout class="QVBoxLayout" name="viewGroupLayout">
          <property name="spacing">
@@ -87,7 +87,7 @@
          <item>
           <widget class="QRadioButton" name="thirdPersonRadio">
            <property name="text">
-            <string>Càmera en 3a persona</string>
+                  <string>Third-person camera</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -97,14 +97,14 @@
          <item>
           <widget class="QRadioButton" name="firstPersonRadio">
            <property name="text">
-            <string>Càmera en 1r persona</string>
+                  <string>First-person camera</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QCheckBox" name="coinsRotationCheck">
            <property name="text">
-            <string>Girar monedes</string>
+                  <string>Rotate coins</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -114,7 +114,7 @@
            <item>
           <widget class="QCheckBox" name="nightModeCheck">
            <property name="text">
-            <string>Mode nit (N)</string>
+                  <string>Night mode (N)</string>
            </property>
           </widget>
          </item>
@@ -124,7 +124,7 @@
       <item>
        <widget class="QGroupBox" name="sunColorGroup">
         <property name="title">
-         <string>Color del sol</string>
+             <string>Sun color</string>
         </property>
         <layout class="QVBoxLayout" name="sunColorGroupLayout">
          <property name="spacing">
@@ -141,7 +141,7 @@
               </size>
              </property>
              <property name="text">
-              <string>Blau</string>
+              <string>Blue</string>
              </property>
             </widget>
            </item>
@@ -168,7 +168,7 @@
               </size>
              </property>
              <property name="text">
-              <string>Vermell</string>
+              <string>Red</string>
              </property>
             </widget>
            </item>
@@ -195,7 +195,7 @@
               </size>
              </property>
              <property name="text">
-              <string>Groc</string>
+              <string>Yellow</string>
              </property>
             </widget>
            </item>
@@ -217,7 +217,7 @@
       <item>
        <widget class="QGroupBox" name="cameraGroup">
         <property name="title">
-         <string>Càmera</string>
+             <string>Camera</string>
         </property>
         <layout class="QVBoxLayout" name="cameraGroupLayout">
          <property name="spacing">
@@ -234,7 +234,7 @@
               </size>
              </property>
              <property name="text">
-                <string>psi (graus)</string>
+                <string>psi (deg)</string>
              </property>
             </widget>
            </item>
@@ -273,7 +273,7 @@
               </size>
              </property>
              <property name="text">
-                <string>theta (graus)</string>
+                <string>theta (deg)</string>
              </property>
             </widget>
            </item>
@@ -359,7 +359,7 @@
       <item>
        <widget class="QGroupBox" name="gameGroup">
         <property name="title">
-         <string>Partida</string>
+             <string>Game</string>
         </property>
         <layout class="QVBoxLayout" name="gameGroupLayout">
          <property name="spacing">
@@ -368,14 +368,14 @@
          <item>
           <widget class="QLabel" name="coinsLabel">
            <property name="text">
-            <string>0/0 monedes</string>
+            <string>0/0 coins</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QLabel" name="statusLabel">
            <property name="text">
-            <string>Prem Començar partida</string>
+            <string>Press Start Game</string>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -385,7 +385,7 @@
          <item>
           <widget class="QPushButton" name="startButton">
            <property name="text">
-            <string>&amp;Començar partida</string>
+            <string>&amp;Start Game</string>
            </property>
           </widget>
          </item>
@@ -395,7 +395,7 @@
       <item>
        <widget class="QPushButton" name="pushButton">
         <property name="text">
-         <string>&amp;Sortir</string>
+             <string>&amp;Exit</string>
         </property>
        </widget>
       </item>
@@ -438,7 +438,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Ghost In The Maze</string>
+         <string>Ghost in the Maze</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -454,7 +454,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Fi de partida</string>
+         <string>Game Over</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -464,7 +464,7 @@
     <item>
      <widget class="QLabel" name="gameOverQuestionLabel">
       <property name="text">
-       <string>Vols tornar a jugar?</string>
+         <string>Would you like to play again?</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

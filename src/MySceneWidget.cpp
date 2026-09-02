@@ -70,7 +70,7 @@ void MySceneWidget::startGame() {
 
   // Emetem els senyals perquè el MyForm actualitzi la UI
   emit coinsUpdated(monedesRecollides, totalMonedes);
-  emit statusMessageChanged("Partida en curs...");
+  emit statusMessageChanged("Game in progress...");
   emit cameraStateChanged(cameraPsi, cameraTheta, cameraDistScale, int(cameraMode));
   emit coinsRotationStateChanged(timerMonedes.isActive());
   update();
@@ -471,7 +471,7 @@ void MySceneWidget::comprovaColisioIVictoria(bool mortyHaCanviatCasella) {
   if (mortyHaCanviatCasella && maze[mortyFila][mortyCol] == 4 && totalMonedes > 0 && monedesRecollides >= totalMonedes) {
     gameStarted = false;
     gameWon = true;
-    emit statusMessageChanged("Victòria!");
+    emit statusMessageChanged("Victory!");
   }
 }
 
